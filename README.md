@@ -6,7 +6,7 @@ Node.js mini-projects, each one a new challenge.
 
 ## Setup tips
 
-**Run `npm install` in all mini-projects at once**
+### Run `npm install` in all mini-projects at once
 
 From the root directory of the project, run the following command to install all dependencies in all mini-projects:
 
@@ -16,7 +16,7 @@ npm install
 
 This is an npm feature called "workspace". It allows you to install dependencies in all mini-projects at once.
 
-**Clear all mini-projects to free up space**
+### Clear all mini-projects to free up space
 
 From the root directory of the project, run the following commands to clear all mini-projects:
 
