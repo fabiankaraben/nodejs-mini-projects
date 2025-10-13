@@ -20,7 +20,7 @@ Node.js mini-projects, each one a new challenge.
 
 4. **Form Data Parser**  
    🔹 This is a form handling service in Node.js with TypeScript, parsing POST form data, using body-parser middleware, no database, echo response endpoint, no security, and Docker deployment for input validation practice.  
-   🔹 **Project directory**: basic/04-form-data-parser
+   🔹 [Project directory](basic/04-form-data-parser)
 
 5. **Environment Variables Config**  
    🔹 This is a configuration service in Node.js with TypeScript, loading env vars for app settings, using dotenv, no database, GET endpoint to display config, no security, and Docker deployment with env injection.  
