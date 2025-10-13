@@ -2,6 +2,8 @@
 
 Node.js mini-projects, each one a new challenge.
 
+<p align="center"><img src="https://fabiankaraben.github.io/mini-projects/imgs/nodejs.webp" alt="Featured Image"></p>
+
 ## Basic
 
 1. **Hello World HTTP Server**  
