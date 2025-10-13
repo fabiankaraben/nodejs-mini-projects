@@ -53,11 +53,11 @@ find . -name "package-lock.json" -type f -exec rm -f {} +
 
 7. **Error Handling API**  
    🔹 This is an error management API in Node.js with Express and TypeScript, handling 404/500 errors gracefully, no database, test endpoints for errors, no security, and Docker deployment for robustness testing.  
-   🔹 **Project directory**: basic/07-error-handling-api
+   🔹 [Project directory](basic/07-error-handling-api)
 
 8. **CORS Enabled Server**  
    🔹 This is a CORS-configured backend in Node.js with TypeScript, allowing cross-origin requests, using Express middleware, no database, simple API endpoints, no security, and Docker deployment for frontend integration.  
-   🔹 **Project directory**: basic/08-cors-enabled-server
+   🔹 [Project directory](basic/08-cors-enabled-server)
 
 9. **Rate Limiting Service**  
    🔹 This is a rate-limited API in Node.js with Express and TypeScript, limiting requests per IP, using express-rate-limit, no database, basic endpoints, no security, and Docker deployment for abuse prevention practice.  
