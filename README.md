@@ -1,6 +1,6 @@
-# mini-nodejs-projects
+# nodejs-mini-projects
 
-Mini Node.js projects, each one a new challenge.
+Node.js mini-projects, each one a new challenge.
 
 ## Basic
 
@@ -41,11 +41,11 @@ Mini Node.js projects, each one a new challenge.
    basic/09-rate-limiting-service
 
 10. **SQLite CRUD API**  
-    This is a CRUD backend in Node.js with TypeScript, using SQLite for data persistence, Express for REST APIs with 4 endpoints, no security, and Docker deployment for lightweight database operations.  
+    This is a CRUD backend in Node.js with TypeScript, using SQLite for data persistence, Express for REST APIs with 4 endpoints, no security, and Docker Compose deployment for lightweight database operations.  
     basic/10-sqlite-crud-api
 
 11. **MongoDB Connection Service**  
-    This is a database connector in Node.js with TypeScript, connecting to MongoDB, using Mongoose, insert/query operations, no APIs, no security, and Docker/Kubernetes deployment for DB setup practice.  
+    This is a database connector in Node.js with TypeScript, connecting to MongoDB, using Mongoose, insert/query operations, no APIs, no security, and Docker Compose deployment for DB setup practice.  
     basic/11-mongodb-connection-service
 
 12. **File Upload Handler**  
@@ -101,19 +101,19 @@ Mini Node.js projects, each one a new challenge.
     basic/24-validation-with-joi
 
 25. **ORM with Prisma**  
-    This is a database ORM service in Node.js with TypeScript, using Prisma with SQLite, CRUD operations, no APIs, and Docker deployment for schema management.  
+    This is a database ORM service in Node.js with TypeScript, using Prisma with SQLite, CRUD operations, no APIs, and Docker Compose deployment for schema management.  
     basic/25-orm-with-prisma
 
 26. **Redis Cache Connector**  
-    This is a caching layer in Node.js with TypeScript, connecting to Redis, set/get keys, no APIs, and Docker/Kubernetes deployment for cache intro.  
+    This is a caching layer in Node.js with TypeScript, connecting to Redis, set/get keys, no APIs, and Docker Compose deployment for cache intro.  
     basic/26-redis-cache-connector
 
 27. **RabbitMQ Publisher**  
-    This is a message producer in Node.js with TypeScript, publishing to RabbitMQ queue, amqplib, no consumer, and Docker deployment for MQ basics.  
+    This is a message producer in Node.js with TypeScript, publishing to RabbitMQ queue, amqplib, no consumer, and Docker Compose deployment for MQ basics.  
     basic/27-rabbitmq-publisher
 
 28. **S3 File Uploader**  
-    This is a cloud storage uploader in Node.js with TypeScript, uploading to MinIO (S3 compatible), using AWS SDK, POST endpoint, and Docker deployment for object storage.  
+    This is a cloud storage uploader in Node.js with TypeScript, uploading to MinIO (S3 compatible), using AWS SDK, POST endpoint, and Docker Compose deployment for object storage.  
     basic/28-s3-file-uploader
 
 29. **PDF Generator**  
@@ -153,7 +153,7 @@ Mini Node.js projects, each one a new challenge.
     basic/37-winston-logging
 
 38. **Bull Queue Processor**  
-    This is a job queue in Node.js with TypeScript, using Bull with Redis, add/process jobs, no APIs, and Docker/Kubernetes deployment for background tasks.  
+    This is a job queue in Node.js with TypeScript, using Bull with Redis, add/process jobs, no APIs, and Docker Compose deployment for background tasks.  
     basic/38-bull-queue-processor
 
 39. **Socket.io Chat Room**  
@@ -177,19 +177,19 @@ Mini Node.js projects, each one a new challenge.
     basic/43-zod-validation
 
 44. **Sequelize ORM**  
-    This is an ORM connector in Node.js with TypeScript, using Sequelize with PostgreSQL, model definitions, no APIs, and Docker/Kubernetes deployment for relational DB.  
+    This is an ORM connector in Node.js with TypeScript, using Sequelize with PostgreSQL, model definitions, no APIs, and Docker Compose deployment for relational DB.  
     basic/44-sequelize-orm
 
 45. **Memcached Client**  
-    This is a caching client in Node.js with TypeScript, connecting to Memcached, set/get operations, no APIs, and Docker deployment for alternative cache.  
+    This is a caching client in Node.js with TypeScript, connecting to Memcached, set/get operations, no APIs, and Docker Compose deployment for alternative cache.  
     basic/45-memcached-client
 
 46. **Kafka Producer**  
-    This is a message streamer in Node.js with TypeScript, producing to Kafka topic, using kafkajs, no consumer, and Docker/Kubernetes deployment for streaming basics.  
+    This is a message streamer in Node.js with TypeScript, producing to Kafka topic, using kafkajs, no consumer, and Docker Compose deployment for streaming basics.  
     basic/46-kafka-producer
 
 47. **GCS File Storage**  
-    This is a cloud uploader in Node.js with TypeScript, to Google Cloud Storage emulation, using @google-cloud/storage, POST endpoint, and Docker deployment.  
+    This is a cloud uploader in Node.js with TypeScript, to Google Cloud Storage emulation, using @google-cloud/storage, POST endpoint, and Docker Compose deployment.  
     basic/47-gcs-file-storage
 
 48. **Excel Exporter**  
@@ -207,19 +207,19 @@ Mini Node.js projects, each one a new challenge.
 ## Intermediate
 
 1. **RESTful User Management API**  
-   This is a user management backend in Node.js with Express and TypeScript, using MongoDB for data, REST APIs with 5 endpoints for CRUD, JWT security, and Docker/Kubernetes deployment for handling up to 500 users.  
+   This is a user management backend in Node.js with Express and TypeScript, using MongoDB for data, REST APIs with 5 endpoints for CRUD, JWT security, and Docker Compose deployment for handling up to 500 users.  
    intermediate/01-restful-user-management-api
 
 2. **Caching Layer with Redis**  
-   This is a cached API service in Node.js with TypeScript, integrating Redis for query caching, Express endpoints, PostgreSQL backend, JWT auth, and Docker deployment for performance improvement.  
+   This is a cached API service in Node.js with TypeScript, integrating Redis for query caching, Express endpoints, PostgreSQL backend, JWT auth, and Docker Compose deployment for performance improvement.  
    intermediate/02-caching-layer-with-redis
 
 3. **Message Queue Consumer**  
-   This is a queue processor in Node.js with TypeScript, consuming from RabbitMQ, process tasks asynchronously, MongoDB for results, no security, and Docker/Kubernetes deployment for decoupling.  
+   This is a queue processor in Node.js with TypeScript, consuming from RabbitMQ, process tasks asynchronously, MongoDB for results, no security, and Docker Compose deployment for decoupling.  
    intermediate/03-message-queue-consumer
 
 4. **OAuth2 Server**  
-   This is an auth provider backend in Node.js with TypeScript, implementing OAuth2 with passport-oauth2, token endpoints, MongoDB users, and Docker deployment for identity management.  
+   This is an auth provider backend in Node.js with TypeScript, implementing OAuth2 with passport-oauth2, token endpoints, MongoDB users, and Docker Compose deployment for identity management.  
    intermediate/04-oauth2-server
 
 5. **API Testing with Jest**  
@@ -227,7 +227,7 @@ Mini Node.js projects, each one a new challenge.
    intermediate/05-api-testing-with-jest
 
 6. **Microservice Communication**  
-   This is a microservices setup in Node.js with TypeScript, two services communicating via HTTP, Express in each, shared Redis, no auth, and Kubernetes deployment for service discovery.  
+   This is a microservices setup in Node.js with TypeScript, two services communicating via HTTP, Express in each, shared Redis, no auth, and Docker Compose deployment for service discovery.  
    intermediate/06-microservice-communication
 
 7. **File Streaming Server**  
@@ -235,11 +235,11 @@ Mini Node.js projects, each one a new challenge.
    intermediate/07-file-streaming-server
 
 8. **Webhook Receiver**  
-   This is a webhook handler in Node.js with Express and TypeScript, verifying signatures, process events, MongoDB storage, HMAC security, and Docker deployment for integrations.  
+   This is a webhook handler in Node.js with Express and TypeScript, verifying signatures, process events, MongoDB storage, HMAC security, and Docker Compose deployment for integrations.  
    intermediate/08-webhook-receiver
 
 9. **GraphQL Subscriptions**  
-   This is a real-time GraphQL API in Node.js with Apollo and TypeScript, PubSub subscriptions, Redis backend, JWT auth, and Docker/Kubernetes deployment for live updates.  
+   This is a real-time GraphQL API in Node.js with Apollo and TypeScript, PubSub subscriptions, Redis backend, JWT auth, and Docker Compose deployment for live updates.  
    intermediate/09-graphql-subscriptions
 
 10. **Rate Limiter with Redis**  
@@ -247,11 +247,11 @@ Mini Node.js projects, each one a new challenge.
     intermediate/10-rate-limiter-with-redis
 
 11. **Multi-Tenant API**  
-    This is a tenant-isolated backend in Node.js with TypeScript, subdomain-based tenancy, PostgreSQL schemas, REST APIs, JWT with tenant claims, and Kubernetes deployment.  
+    This is a tenant-isolated backend in Node.js with TypeScript, subdomain-based tenancy, PostgreSQL schemas, REST APIs, JWT with tenant claims, and Docker Compose deployment.  
     intermediate/11-multi-tenant-api
 
 12. **Background Job Scheduler**  
-    This is a job orchestrator in Node.js with TypeScript, using Agenda with MongoDB, schedule recurring jobs, API to trigger, no security, and Docker deployment.  
+    This is a job orchestrator in Node.js with TypeScript, using Agenda with MongoDB, schedule recurring jobs, API to trigger, no security, and Docker Compose deployment.  
     intermediate/12-background-job-scheduler
 
 13. **SSE Notification Server**  
@@ -259,23 +259,23 @@ Mini Node.js projects, each one a new challenge.
     intermediate/13-sse-notification-server
 
 14. **API Gateway Proxy**  
-    This is a gateway service in Node.js with TypeScript, proxying to multiple backends, http-proxy-middleware, route-based forwarding, JWT validation, and Kubernetes deployment.  
+    This is a gateway service in Node.js with TypeScript, proxying to multiple backends, http-proxy-middleware, route-based forwarding, JWT validation, and Docker Compose deployment.  
     intermediate/14-api-gateway-proxy
 
 15. **Data Migration Script**  
-    This is a DB migrator in Node.js with TypeScript, using Knex for migrations, PostgreSQL target, command-line execution, no APIs, and Docker deployment for schema evolution.  
+    This is a DB migrator in Node.js with TypeScript, using Knex for migrations, PostgreSQL target, command-line execution, no APIs, and Docker Compose deployment for schema evolution.  
     intermediate/15-data-migration-script
 
 16. **Elasticsearch Indexer**  
-    This is a search indexer in Node.js with TypeScript, indexing docs to Elasticsearch, @elastic/elasticsearch client, sync from MongoDB, and Docker/Kubernetes deployment.  
+    This is a search indexer in Node.js with TypeScript, indexing docs to Elasticsearch, @elastic/elasticsearch client, sync from MongoDB, and Docker Compose deployment.  
     intermediate/16-elasticsearch-indexer
 
 17. **Prometheus Metrics**  
-    This is a monitored API in Node.js with Express and TypeScript, exposing metrics with prom-client, custom counters, PostgreSQL data, and Docker deployment for observability.  
+    This is a monitored API in Node.js with Express and TypeScript, exposing metrics with prom-client, custom counters, PostgreSQL data, and Docker Compose deployment for observability.  
     intermediate/17-prometheus-metrics
 
 18. **gRPC Server**  
-    This is a gRPC service in Node.js with TypeScript, defining proto and implementing methods, @grpc/grpc-js, unary calls, no database, and Kubernetes deployment.  
+    This is a gRPC service in Node.js with TypeScript, defining proto and implementing methods, @grpc/grpc-js, unary calls, no database, and Docker Compose deployment.  
     intermediate/18-grpc-server
 
 19. **Circuit Breaker Pattern**  
@@ -283,11 +283,11 @@ Mini Node.js projects, each one a new challenge.
     intermediate/19-circuit-breaker-pattern
 
 20. **Bulk Data Importer**  
-    This is a data loader in Node.js with TypeScript, importing CSV to MongoDB, fast-csv and bulk ops, command-line, no security, and Docker deployment for ETL basics.  
+    This is a data loader in Node.js with TypeScript, importing CSV to MongoDB, fast-csv and bulk ops, command-line, no security, and Docker Compose deployment for ETL basics.  
     intermediate/20-bulk-data-importer
 
 21. **Role-Based Access Control**  
-    This is an RBAC API in Node.js with Express and TypeScript, using roles in JWT, middleware checks, PostgreSQL users/roles, and Kubernetes deployment for authorization.  
+    This is an RBAC API in Node.js with Express and TypeScript, using roles in JWT, middleware checks, PostgreSQL users/roles, and Docker Compose deployment for authorization.  
     intermediate/21-role-based-access-control
 
 22. **Thumbnail Generator**  
@@ -299,15 +299,15 @@ Mini Node.js projects, each one a new challenge.
     intermediate/23-sms-sender-service
 
 24. **Two-Factor Auth**  
-    This is a 2FA backend in Node.js with TypeScript, generating/verifying TOTP with speakeasy, integrate with login, PostgreSQL storage, and Kubernetes deployment.  
+    This is a 2FA backend in Node.js with TypeScript, generating/verifying TOTP with speakeasy, integrate with login, PostgreSQL storage, and Docker Compose deployment.  
     intermediate/24-two-factor-auth
 
 25. **E2E Testing with Cypress**  
-    This is a testable service in Node.js with TypeScript, Cypress for E2E API tests, Express app, MongoDB, and Docker deployment for full testing.  
+    This is a testable service in Node.js with TypeScript, Cypress for E2E API tests, Express app, MongoDB, and Docker Compose deployment for full testing.  
     intermediate/25-e2e-testing-with-cypress
 
 26. **Service Discovery with Consul**  
-    This is a discoverable microservice in Node.js with TypeScript, registering with Consul, health checks, Express API, and Kubernetes deployment for dynamic environments.  
+    This is a discoverable microservice in Node.js with TypeScript, registering with Consul, health checks, Express API, and Docker Compose deployment for dynamic environments.  
     intermediate/26-service-discovery-with-consul
 
 27. **Video Transcoder**  
@@ -315,11 +315,11 @@ Mini Node.js projects, each one a new challenge.
     intermediate/27-video-transcoder
 
 28. **Payment Gateway Integrator**  
-    This is a payment processor in Node.js with TypeScript, integrating Stripe webhooks, handle charges, MongoDB records, and Docker deployment for e-commerce.  
+    This is a payment processor in Node.js with TypeScript, integrating Stripe webhooks, handle charges, MongoDB records, and Docker Compose deployment for e-commerce.  
     intermediate/28-payment-gateway-integrator
 
 29. **Schema-First GraphQL**  
-    This is a schema-driven GraphQL API in Node.js with TypeScript, using graphql-tools, resolvers with Prisma, JWT auth, and Kubernetes deployment.  
+    This is a schema-driven GraphQL API in Node.js with TypeScript, using graphql-tools, resolvers with Prisma, JWT auth, and Docker Compose deployment.  
     intermediate/29-schema-first-graphql
 
 30. **Distributed Locking**  
@@ -327,15 +327,15 @@ Mini Node.js projects, each one a new challenge.
     intermediate/30-distributed-locking
 
 31. **Audit Logging**  
-    This is an auditing service in Node.js with Express and TypeScript, logging actions to MongoDB, middleware integration, user tracking, and Kubernetes deployment.  
+    This is an auditing service in Node.js with Express and TypeScript, logging actions to MongoDB, middleware integration, user tracking, and Docker Compose deployment.  
     intermediate/31-audit-logging
 
 32. **Reverse Proxy with Nginx**  
-    This is a proxy frontend in Node.js with TypeScript, but configured with Nginx in Docker, load balance Node apps, and Kubernetes deployment for traffic management.  
+    This is a proxy frontend in Node.js with TypeScript, but configured with Nginx in Docker, load balance Node apps, and Docker Compose deployment for traffic management.  
     intermediate/32-reverse-proxy-with-nginx
 
 33. **Event Sourcing Intro**  
-    This is an event-based store in Node.js with TypeScript, storing events in PostgreSQL, replay for state, simple aggregate, and Docker deployment.  
+    This is an event-based store in Node.js with TypeScript, storing events in PostgreSQL, replay for state, simple aggregate, and Docker Compose deployment.  
     intermediate/33-event-sourcing-intro
 
 34. **Worker Threads Pool**  
@@ -343,7 +343,7 @@ Mini Node.js projects, each one a new challenge.
     intermediate/34-worker-threads-pool
 
 35. **CI/CD Pipeline Config**  
-    This is a deployable app in Node.js with TypeScript, with GitHub Actions YAML for CI/CD, Express API, tests, and Docker/Kubernetes for automation practice.  
+    This is a deployable app in Node.js with TypeScript, with GitHub Actions YAML for CI/CD, Express API, tests, and Docker deployment for automation practice.  
     intermediate/35-ci-cd-pipeline-config
 
 36. **OpenAPI Generator**  
@@ -355,15 +355,15 @@ Mini Node.js projects, each one a new challenge.
     intermediate/37-morgan-logging
 
 38. **Agenda Job Queue**  
-    This is a persistent queue in Node.js with TypeScript, Agenda with MongoDB, retry/fail handling, API to schedule, and Kubernetes deployment.  
+    This is a persistent queue in Node.js with TypeScript, Agenda with MongoDB, retry/fail handling, API to schedule, and Docker Compose deployment.  
     intermediate/38-agenda-job-queue
 
 39. **Real-Time Collaboration**  
-    This is a collab server in Node.js with TypeScript, using Socket.io with rooms, shared state, Redis pub/sub, and Docker deployment.  
+    This is a collab server in Node.js with TypeScript, using Socket.io with rooms, shared state, Redis pub/sub, and Docker Compose deployment.  
     intermediate/39-real-time-collaboration
 
 40. **GraphQL Federation**  
-    This is a federated GraphQL service in Node.js with Apollo and TypeScript, one subgraph, extend types, JWT, and Kubernetes deployment.  
+    This is a federated GraphQL service in Node.js with Apollo and TypeScript, one subgraph, extend types, JWT, and Docker Compose deployment.  
     intermediate/40-graphql-federation
 
 41. **Load Testing with Artillery**  
@@ -371,23 +371,23 @@ Mini Node.js projects, each one a new challenge.
     intermediate/41-load-testing-with-artillery
 
 42. **CSRF Protection**  
-    This is a secure form API in Node.js with TypeScript, using csurf middleware, token generation, PostgreSQL sessions, and Docker deployment.  
+    This is a secure form API in Node.js with TypeScript, using csurf middleware, token generation, PostgreSQL sessions, and Docker Compose deployment.  
     intermediate/42-csrf-protection
 
 43. **TypeORM Integration**  
-    This is an ORM service in Node.js with TypeScript, using TypeORM with MySQL, entities/repos, API CRUD, and Kubernetes deployment.  
+    This is an ORM service in Node.js with TypeScript, using TypeORM with MySQL, entities/repos, API CRUD, and Docker Compose deployment.  
     intermediate/43-typeorm-integration
 
 44. **Etcd Config Store**  
-    This is a config manager in Node.js with TypeScript, watching etcd keys, dynamic reload, Express use, and Docker deployment.  
+    This is a config manager in Node.js with TypeScript, watching etcd keys, dynamic reload, Express use, and Docker Compose deployment.  
     intermediate/44-etcd-config-store
 
 45. **Kafka Consumer Group**  
-    This is a group consumer in Node.js with TypeScript, kafkajs with partitions, process messages, MongoDB store, and Kubernetes deployment.  
+    This is a group consumer in Node.js with TypeScript, kafkajs with partitions, process messages, MongoDB store, and Docker Compose deployment.  
     intermediate/45-kafka-consumer-group
 
 46. **Azure Blob Uploader**  
-    This is a cloud storage service in Node.js with TypeScript, to Azure Blob emulation, @azure/storage-blob, endpoint, and Docker deployment.  
+    This is a cloud storage service in Node.js with TypeScript, to Azure Blob emulation, @azure/storage-blob, endpoint, and Docker Compose deployment.  
     intermediate/46-azure-blob-uploader
 
 47. **Report Generator**  
@@ -395,7 +395,7 @@ Mini Node.js projects, each one a new challenge.
     intermediate/47-report-generator
 
 48. **Session Management**  
-    This is a session-based auth in Node.js with TypeScript, express-session with Redis store, login/logout, and Kubernetes deployment.  
+    This is a session-based auth in Node.js with TypeScript, express-session with Redis store, login/logout, and Docker Compose deployment.  
     intermediate/48-session-management
 
 49. **Federated Auth with SAML**  
@@ -403,21 +403,21 @@ Mini Node.js projects, each one a new challenge.
     intermediate/49-federated-auth-with-saml
 
 50. **Feature Flagging**  
-    This is a flagged API in Node.js with TypeScript, using unleash-client, toggle endpoints, MongoDB flags, and Kubernetes deployment.  
+    This is a flagged API in Node.js with TypeScript, using unleash-client, toggle endpoints, MongoDB flags, and Docker Compose deployment.  
     intermediate/50-feature-flagging
 
 ## Advanced
 
 1. **Scalable Microservices Architecture**  
-   This is a microservices backend in Node.js with TypeScript, three services with gRPC communication, PostgreSQL and Redis for data, REST/gRPC APIs with 10 endpoints, JWT/OAuth security, and Docker/Kubernetes deployment for scalability up to 10k users.  
+   This is a microservices backend in Node.js with TypeScript, three services with gRPC communication, PostgreSQL and Redis for data, REST/gRPC APIs with 10 endpoints, JWT/OAuth security, and Docker Compose deployment for scalability up to 10k users.  
    advanced/01-scalable-microservices-architecture
 
 2. **CQRS Pattern Implementation**  
-   This is a CQRS-based service in Node.js with TypeScript, separate command/query handlers, EventStoreDB for events, MongoDB views, API endpoints, JWT, and Kubernetes deployment for complex domains.  
+   This is a CQRS-based service in Node.js with TypeScript, separate command/query handlers, EventStoreDB for events, MongoDB views, API endpoints, JWT, and Docker Compose deployment for complex domains.  
    advanced/02-cqrs-pattern-implementation
 
 3. **Distributed Tracing with Jaeger**  
-   This is a traced microservices setup in Node.js with TypeScript, opentelemetry integration, span exports to Jaeger, multiple services, Redis data, and Docker/Kubernetes for observability.  
+   This is a traced microservices setup in Node.js with TypeScript, opentelemetry integration, span exports to Jaeger, multiple services, Redis data, and Docker Compose deployment for observability.  
    advanced/03-distributed-tracing-with-jaeger
 
 4. **Serverless Function Emulator**  
@@ -425,35 +425,35 @@ Mini Node.js projects, each one a new challenge.
    advanced/04-serverless-function-emulator
 
 5. **Advanced Testing with Mocking**  
-   This is a mocked service test suite in Node.js with TypeScript, Jest with sinon mocks, external service stubs, PostgreSQL, end-to-end, and Kubernetes deployment.  
+   This is a mocked service test suite in Node.js with TypeScript, Jest with sinon mocks, external service stubs, PostgreSQL, end-to-end, and Docker Compose deployment.  
    advanced/05-advanced-testing-with-mocking
 
 6. **Event-Driven Microservices**  
-   This is an event-sourced system in Node.js with TypeScript, Kafka for events, multiple consumers, MongoDB projections, JWT security, and Kubernetes deployment for loose coupling.  
+   This is an event-sourced system in Node.js with TypeScript, Kafka for events, multiple consumers, MongoDB projections, JWT security, and Docker Compose deployment for loose coupling.  
    advanced/06-event-driven-microservices
 
 7. **Video Streaming Service**  
-   This is a streaming backend in Node.js with TypeScript, HLS/DASH with ffmpeg, adaptive bitrate, S3 storage, API for playback, token auth, and Docker/Kubernetes for media delivery.  
+   This is a streaming backend in Node.js with TypeScript, HLS/DASH with ffmpeg, adaptive bitrate, S3 storage, API for playback, token auth, and Docker deployment for media delivery.  
    advanced/07-video-streaming-service
 
 8. **Blockchain Integrator**  
-   This is a web3 connector in Node.js with TypeScript, ethers.js for Ethereum interactions, smart contract calls, MongoDB tx logs, API endpoints, and Kubernetes deployment.  
+   This is a web3 connector in Node.js with TypeScript, ethers.js for Ethereum interactions, smart contract calls, MongoDB tx logs, API endpoints, and Docker Compose deployment.  
    advanced/08-blockchain-integrator
 
 9. **GraphQL Gateway**  
-   This is a federated gateway in Node.js with Apollo and TypeScript, stitching multiple subgraphs, auth propagation, caching, and Kubernetes deployment for unified API.  
+   This is a federated gateway in Node.js with Apollo and TypeScript, stitching multiple subgraphs, auth propagation, caching, and Docker Compose deployment for unified API.  
    advanced/09-graphql-gateway
 
 10. **AI Model Inference Server**  
-    This is an ML serving API in Node.js with TypeScript, TensorFlow.js inference, model loading, POST predictions, no training, and Docker/Kubernetes for edge AI.  
+    This is an ML serving API in Node.js with TypeScript, TensorFlow.js inference, model loading, POST predictions, no training, and Docker deployment for edge AI.  
     advanced/10-ai-model-inference-server
 
 11. **Multi-Region Deployment**  
-    This is a geo-distributed service in Node.js with TypeScript, Consul for multi-DC, Express with region routing, PostgreSQL replication, JWT, and Kubernetes deployment.  
+    This is a geo-distributed service in Node.js with TypeScript, Consul for multi-DC, Express with region routing, PostgreSQL replication, JWT, and Docker Compose deployment.  
     advanced/11-multi-region-deployment
 
 12. **Long-Running Job Manager**  
-    This is a workflow orchestrator in Node.js with TypeScript, Temporal.io for workflows, durable execution, API triggers, MongoDB state, and Kubernetes for reliability.  
+    This is a workflow orchestrator in Node.js with TypeScript, Temporal.io for workflows, durable execution, API triggers, MongoDB state, and Docker Compose deployment for reliability.  
     advanced/12-long-running-job-manager
 
 13. **WebRTC Signaling Server**  
@@ -461,23 +461,23 @@ Mini Node.js projects, each one a new challenge.
     advanced/13-webrtc-signaling-server
 
 14. **Custom Load Balancer**  
-    This is a balancer service in Node.js with TypeScript, round-robin proxying, health checks, multiple backends, and Kubernetes deployment for custom traffic.  
+    This is a balancer service in Node.js with TypeScript, round-robin proxying, health checks, multiple backends, and Docker Compose deployment for custom traffic.  
     advanced/14-custom-load-balancer
 
 15. **Database Sharding**  
-    This is a sharded DB accessor in Node.js with TypeScript, shard key routing, MongoDB shards, CRUD APIs, JWT, and Kubernetes for horizontal scaling.  
+    This is a sharded DB accessor in Node.js with TypeScript, shard key routing, MongoDB shards, CRUD APIs, JWT, and Docker Compose deployment for horizontal scaling.  
     advanced/15-database-sharding
 
 16. **Full-Text Search Engine**  
-    This is a search service in Node.js with TypeScript, MeiliSearch integration, indexing/querying, sync from PostgreSQL, API search, and Docker deployment.  
+    This is a search service in Node.js with TypeScript, MeiliSearch integration, indexing/querying, sync from PostgreSQL, API search, and Docker Compose deployment.  
     advanced/16-full-text-search-engine
 
 17. **APM with New Relic**  
-    This is a performance-monitored API in Node.js with TypeScript, New Relic agent, transaction tracing, Express, Redis, and Kubernetes deployment.  
+    This is a performance-monitored API in Node.js with TypeScript, New Relic agent, transaction tracing, Express, Redis, and Docker Compose deployment.  
     advanced/17-apm-with-new-relic
 
 18. **gRPC Streaming Server**  
-    This is a streaming gRPC service in Node.js with TypeScript, bidirectional streams, @grpc/grpc-js, real-time data, MongoDB, and Kubernetes deployment.  
+    This is a streaming gRPC service in Node.js with TypeScript, bidirectional streams, @grpc/grpc-js, real-time data, MongoDB, and Docker Compose deployment.  
     advanced/18-grpc-streaming-server
 
 19. **Retry and Backoff Strategy**  
@@ -485,11 +485,11 @@ Mini Node.js projects, each one a new challenge.
     advanced/19-retry-and-backoff-strategy
 
 20. **Data Pipeline ETL**  
-    This is an ETL pipeline in Node.js with TypeScript, Apache Beam emulation, extract/transform/load, S3 to BigQuery like, and Kubernetes deployment.  
+    This is an ETL pipeline in Node.js with TypeScript, Apache Beam emulation, extract/transform/load, S3 to BigQuery like, and Docker Compose deployment.  
     advanced/20-data-pipeline-etl
 
 21. **ABAC Authorization**  
-    This is an attribute-based access control in Node.js with TypeScript, Casbin for policies, middleware, PostgreSQL rules, JWT attributes, and Kubernetes.  
+    This is an attribute-based access control in Node.js with TypeScript, Casbin for policies, middleware, PostgreSQL rules, JWT attributes, and Docker Compose deployment.  
     advanced/21-abac-authorization
 
 22. **OCR Image Processor**  
@@ -497,7 +497,7 @@ Mini Node.js projects, each one a new challenge.
     advanced/22-ocr-image-processor
 
 23. **Push Notification Server**  
-    This is a notifier backend in Node.js with TypeScript, FCM/APNS via firebase-admin, device tokens, MongoDB subs, JWT, and Kubernetes deployment.  
+    This is a notifier backend in Node.js with TypeScript, FCM/APNS via firebase-admin, device tokens, MongoDB subs, JWT, and Docker Compose deployment.  
     advanced/23-push-notification-server
 
 24. **Biometric Auth Integrator**  
@@ -505,11 +505,11 @@ Mini Node.js projects, each one a new challenge.
     advanced/24-biometric-auth-integrator
 
 25. **Chaos Engineering Setup**  
-    This is a resilient tester in Node.js with TypeScript, Chaos Monkey like scripts, inject failures, monitor with Prometheus, Express, and Kubernetes.  
+    This is a resilient tester in Node.js with TypeScript, Chaos Monkey like scripts, inject failures, monitor with Prometheus, Express, and Docker Compose deployment.  
     advanced/25-chaos-engineering-setup
 
 26. **Zero-Downtime Deployment**  
-    This is a blue-green deployable app in Node.js with TypeScript, PM2 for zero-downtime, CI/CD hooks, PostgreSQL, and Kubernetes rolling updates.  
+    This is a blue-green deployable app in Node.js with TypeScript, PM2 for zero-downtime, CI/CD hooks, PostgreSQL, and Docker deployment for rolling updates.  
     advanced/26-zero-downtime-deployment
 
 27. **AR/VR Data Backend**  
@@ -517,93 +517,93 @@ Mini Node.js projects, each one a new challenge.
     advanced/27-ar-vr-data-backend
 
 28. **Crypto Trading Bot**  
-    This is a trading simulator in Node.js with TypeScript, CCXT for exchanges, strategy execution, backtesting, MongoDB logs, and Kubernetes.  
+    This is a trading simulator in Node.js with TypeScript, CCXT for exchanges, strategy execution, backtesting, MongoDB logs, and Docker Compose deployment.  
     advanced/28-crypto-trading-bot
 
 29. **Code-First GraphQL with Nexus**  
-    This is a code-first GraphQL API in Node.js with TypeScript, Nexus for schema, Prisma resolvers, federation ready, JWT, and Kubernetes.  
+    This is a code-first GraphQL API in Node.js with TypeScript, Nexus for schema, Prisma resolvers, federation ready, JWT, and Docker Compose deployment.  
     advanced/29-code-first-graphql-with-nexus
 
 30. **Distributed Transactions**  
-    This is a saga orchestrator in Node.js with TypeScript, for distributed tx, compensating actions, Kafka events, and Docker deployment.  
+    This is a saga orchestrator in Node.js with TypeScript, for distributed tx, compensating actions, Kafka events, and Docker Compose deployment.  
     advanced/30-distributed-transactions
 
 31. **Compliance Audit Trail**  
-    This is a compliant logger in Node.js with TypeScript, immutable logs to PostgreSQL, blockchain-like hashing, API actions, and Kubernetes.  
+    This is a compliant logger in Node.js with TypeScript, immutable logs to PostgreSQL, blockchain-like hashing, API actions, and Docker Compose deployment.  
     advanced/31-compliance-audit-trail
 
 32. **NGINX Module Integration**  
-    This is a custom NGINX extender in Node.js with TypeScript, Lua scripts calling Node, advanced proxy, and Docker/Kubernetes.  
+    This is a custom NGINX extender in Node.js with TypeScript, Lua scripts calling Node, advanced proxy, and Docker Compose deployment.  
     advanced/32-nginx-module-integration
 
 33. **Advanced Event Sourcing**  
-    This is a full ES system in Node.js with TypeScript, snapshots, projections, EventStoreDB, CQRS integration, and Kubernetes.  
+    This is a full ES system in Node.js with TypeScript, snapshots, projections, EventStoreDB, CQRS integration, and Docker Compose deployment.  
     advanced/33-advanced-event-sourcing
 
 34. **WebAssembly Integration**  
-    This is a WASM runner in Node.js with TypeScript, loading/executing WASM modules, performance tasks, API invoke, and Docker.  
+    This is a WASM runner in Node.js with TypeScript, loading/executing WASM modules, performance tasks, API invoke, and Docker deployment.  
     advanced/34-webassembly-integration
 
 35. **GitOps Deployment**  
-    This is a GitOps-ready service in Node.js with TypeScript, ArgoCD manifests, auto-sync, Express, and Kubernetes for declarative deploys.  
+    This is a GitOps-ready service in Node.js with TypeScript, ArgoCD manifests, auto-sync, Express, and Docker deployment for declarative deploys.  
     advanced/35-gitops-deployment
 
 36. **AsyncAPI Docs**  
-    This is a message-documented service in Node.js with TypeScript, AsyncAPI for Kafka schemas, generator tools, and Docker.  
+    This is a message-documented service in Node.js with TypeScript, AsyncAPI for Kafka schemas, generator tools, and Docker deployment.  
     advanced/36-asyncapi-docs
 
 37. **ELK Stack Logging**  
-    This is a centralized logger in Node.js with TypeScript, Winston to Elasticsearch, Kibana viz, Express, and Kubernetes.  
+    This is a centralized logger in Node.js with TypeScript, Winston to Elasticsearch, Kibana viz, Express, and Docker Compose deployment.  
     advanced/37-elk-stack-logging
 
 38. **BullMQ Advanced Queues**  
-    This is a pro queue system in Node.js with TypeScript, BullMQ with Redis, priorities/delays, worker scaling, and Kubernetes.  
+    This is a pro queue system in Node.js with TypeScript, BullMQ with Redis, priorities/delays, worker scaling, and Docker Compose deployment.  
     advanced/38-bullmq-advanced-queues
 
 39. **Operational Transformation Server**  
-    This is a doc collab backend in Node.js with TypeScript, OT for conflicts, Socket.io transport, Redis state, and Docker.  
+    This is a doc collab backend in Node.js with TypeScript, OT for conflicts, Socket.io transport, Redis state, and Docker Compose deployment.  
     advanced/39-operational-transformation-server
 
 40. **Apollo GraphQL Cache**  
-    This is an advanced GraphQL with in-memory cache in Node.js with TypeScript, Apollo cache control, directives, federation, and Kubernetes.  
+    This is an advanced GraphQL with in-memory cache in Node.js with TypeScript, Apollo cache control, directives, federation, and Docker Compose deployment.  
     advanced/40-apollo-graphql-cache
 
 41. **K6 Load Testing**  
-    This is a stress-tested API in Node.js with TypeScript, K6 scripts for scenarios, thresholds, Express, Prometheus export, and Docker.  
+    This is a stress-tested API in Node.js with TypeScript, K6 scripts for scenarios, thresholds, Express, Prometheus export, and Docker deployment.  
     advanced/41-k6-load-testing
 
 42. **OWASP Security Suite**  
-    This is a hardened API in Node.js with TypeScript, full OWASP checks, helmet/lusca, input sanitization, PostgreSQL, and Kubernetes.  
+    This is a hardened API in Node.js with TypeScript, full OWASP checks, helmet/lusca, input sanitization, PostgreSQL, and Docker Compose deployment.  
     advanced/42-owasp-security-suite
 
 43. **MikroORM Usage**  
-    This is an advanced ORM service in Node.js with TypeScript, MikroORM with MongoDB, unit of work, API, and Docker.  
+    This is an advanced ORM service in Node.js with TypeScript, MikroORM with MongoDB, unit of work, API, and Docker Compose deployment.  
     advanced/43-mikroorm-usage
 
 44. **Vault Secrets Manager**  
-    This is a secure config in Node.js with TypeScript, HashiCorp Vault client, dynamic secrets, Express use, and Kubernetes.  
+    This is a secure config in Node.js with TypeScript, HashiCorp Vault client, dynamic secrets, Express use, and Docker Compose deployment.  
     advanced/44-vault-secrets-manager
 
 45. **Apache Kafka Streams**  
-    This is a stream processor in Node.js with TypeScript, kafkajs streams, transformations, state stores, and Docker.  
+    This is a stream processor in Node.js with TypeScript, kafkajs streams, transformations, state stores, and Docker Compose deployment.  
     advanced/45-apache-kafka-streams
 
 46. **AWS S3 Multipart Upload**  
-    This is a large file handler in Node.js with TypeScript, AWS SDK multipart, progress tracking, endpoint, and Kubernetes.  
+    This is a large file handler in Node.js with TypeScript, AWS SDK multipart, progress tracking, endpoint, and Docker Compose deployment.  
     advanced/46-aws-s3-multipart-upload
 
 47. **Dashboard Data Aggregator**  
-    This is an analytics aggregator in Node.js with TypeScript, query multiple DBs, cache results, API for charts, and Docker.  
+    This is an analytics aggregator in Node.js with TypeScript, query multiple DBs, cache results, API for charts, and Docker Compose deployment.  
     advanced/47-dashboard-data-aggregator
 
 48. **Redis Pub/Sub Scaler**  
-    This is a scalable pub/sub in Node.js with TypeScript, Redis cluster, multiple subscribers, load balanced, and Kubernetes.  
+    This is a scalable pub/sub in Node.js with TypeScript, Redis cluster, multiple subscribers, load balanced, and Docker Compose deployment.  
     advanced/48-redis-pub-sub-scaler
 
 49. **OIDC Provider**  
-    This is an OpenID Connect server in Node.js with TypeScript, oidc-provider, full flows, PostgreSQL, and Docker.  
+    This is an OpenID Connect server in Node.js with TypeScript, oidc-provider, full flows, PostgreSQL, and Docker Compose deployment.  
     advanced/49-oidc-provider
 
 50. **ML Recommendation Engine**  
-    This is a recommender backend in Node.js with TypeScript, simple ML with brain.js, user data from MongoDB, API suggestions, and Kubernetes.  
+    This is a recommender backend in Node.js with TypeScript, simple ML with brain.js, user data from MongoDB, API suggestions, and Docker Compose deployment.  
     advanced/50-ml-recommendation-engine
