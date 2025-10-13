@@ -61,11 +61,11 @@ find . -name "package-lock.json" -type f -exec rm -f {} +
 
 9. **Rate Limiting Service**  
    🔹 This is a rate-limited API in Node.js with Express and TypeScript, limiting requests per IP, using express-rate-limit, no database, basic endpoints, no security, and Docker deployment for abuse prevention practice.  
-   🔹 **Project directory**: basic/09-rate-limiting-service
+   🔹 [Project directory](basic/09-rate-limiting-service)
 
 10. **SQLite CRUD API**  
     🔹 This is a CRUD backend in Node.js with TypeScript, using SQLite for data persistence, Express for REST APIs with 4 endpoints, no security, and Docker Compose deployment for lightweight database operations.  
-    🔹 **Project directory**: basic/10-sqlite-crud-api
+    🔹 [Project directory](basic/10-sqlite-crud-api)
 
 11. **MongoDB Connection Service**  
     🔹 This is a database connector in Node.js with TypeScript, connecting to MongoDB, using Mongoose, insert/query operations, no APIs, no security, and Docker Compose deployment for DB setup practice.  
