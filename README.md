@@ -4,6 +4,27 @@ Node.js mini-projects, each one a new challenge.
 
 <p align="center"><img src="https://fabiankaraben.github.io/mini-projects/imgs/nodejs.webp" alt="Featured Image"></p>
 
+## Setup tips
+
+**Run `npm install` in all mini-projects at once**
+
+From the root directory of the project, run the following command to install all dependencies in all mini-projects:
+
+```bash
+npm install
+```
+
+This is an npm feature called "workspace". It allows you to install dependencies in all mini-projects at once.
+
+**Clear all mini-projects to free up space**
+
+From the root directory of the project, run the following commands to clear all mini-projects:
+
+```bash
+find . -name "node_modules" -type d -exec rm -rf {} +
+find . -name "package-lock.json" -type f -exec rm -f {} +
+```
+
 ## Basic
 
 1. **Hello World HTTP Server**  
@@ -24,11 +45,11 @@ Node.js mini-projects, each one a new challenge.
 
 5. **Environment Variables Config**  
    🔹 This is a configuration service in Node.js with TypeScript, loading env vars for app settings, using dotenv, no database, GET endpoint to display config, no security, and Docker deployment with env injection.  
-   🔹 **Project directory**: basic/05-environment-variables-config
+   🔹 [Project directory](basic/05-environment-variables-config)
 
 6. **Basic Logging Service**  
    🔹 This is a logging-enabled server in Node.js with TypeScript, logging requests to console, using Express, no database, multiple endpoints, no security, and Docker deployment for log monitoring.  
-   🔹 **Project directory**: basic/06-basic-logging-service
+   🔹 [Project directory](basic/06-basic-logging-service)
 
 7. **Error Handling API**  
    🔹 This is an error management API in Node.js with Express and TypeScript, handling 404/500 errors gracefully, no database, test endpoints for errors, no security, and Docker deployment for robustness testing.  

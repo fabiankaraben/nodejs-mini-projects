@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-mini-projects",
+  "version": "1.0.0",
+  "description": "A collection of 150 Node.js mini-projects for practice",
+  "workspaces": [
+    "basic/*",
+    "intermediate/*",
+    "advanced/*"
+  ],
+  "scripts": {
+    "install:all": "npm install",
+    "postinstall": "echo 'Workspace dependencies installed!'"
+  }
+}
