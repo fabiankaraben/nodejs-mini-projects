@@ -16,7 +16,7 @@ Node.js mini-projects, each one a new challenge.
 
 3. **JSON Response API**  
    🔹 This is a minimal API in Node.js with Express and TypeScript, returning JSON data on GET requests, in-memory data storage, one endpoint, no security, and Docker deployment for quick prototyping.  
-   🔹 **Project directory**: basic/03-json-response-api
+   🔹 [Project directory](basic/03-json-response-api)
 
 4. **Form Data Parser**  
    🔹 This is a form handling service in Node.js with TypeScript, parsing POST form data, using body-parser middleware, no database, echo response endpoint, no security, and Docker deployment for input validation practice.  
