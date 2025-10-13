@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  # The CRUD API service
+  api:
+    # Build the image from the current directory (using the Dockerfile)
+    build: .
+    # Map host port 3000 to container port 3000
+    ports:
+      - "3000:3000"
+    # Mount a volume to persist the SQLite database file
+    volumes:
+      - ./database.db:/app/database.db
