@@ -8,11 +8,11 @@ Node.js mini-projects, each one a new challenge.
 
 1. **Hello World HTTP Server**  
    🔹 This is a simple HTTP server in Node.js with TypeScript, serving a "Hello World" response on a single endpoint, no database, basic GET request handling, no security, and Docker deployment for local testing.  
-   🔹 **Project directory**: basic/01-hello-world-http-server
+   🔹 [Project directory](basic/01-hello-world-http-server)
 
 2. **Static File Server**  
    🔹 This is a basic static file server in Node.js with TypeScript, serving HTML/CSS/JS files from a directory, using built-in HTTP module, no database, simple file routing, no security, and Docker deployment for serving assets.  
-   🔹 **Project directory**: basic/02-static-file-server
+   🔹 [Project directory](basic/02-static-file-server)
 
 3. **JSON Response API**  
    🔹 This is a minimal API in Node.js with Express and TypeScript, returning JSON data on GET requests, in-memory data storage, one endpoint, no security, and Docker deployment for quick prototyping.  
