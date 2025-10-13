@@ -1,0 +1,19 @@
+{
+  "name": "02-static-file-server",
+  "version": "1.0.0",
+  "description": "A basic static file server in Node.js with TypeScript",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "tsx src/server.ts"
+  },
+  "keywords": ["static", "file", "server", "nodejs", "typescript"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
