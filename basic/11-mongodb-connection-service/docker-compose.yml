@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb-connection-service
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: mydb
+    volumes:
+      - mongo_data:/data/db
+
+  app:
+    build: .
+    depends_on:
+      - mongodb
+    environment:
+      MONGODB_URI: mongodb://mongodb:27017/mydb
+    command: npm start
+
+volumes:
+  mongo_data:
