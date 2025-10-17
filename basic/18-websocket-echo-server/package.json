@@ -1,0 +1,31 @@
+{
+  "name": "websocket-echo-server",
+  "version": "1.0.0",
+  "description": "A real-time WebSocket echo server in Node.js with TypeScript",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "dev": "nodemon --exec ts-node src/server.ts",
+    "build": "tsc",
+    "serve": "node dist/server.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "@types/ws": "^8.5.5",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "keywords": [
+    "websocket",
+    "echo",
+    "server",
+    "nodejs",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC"
+}
