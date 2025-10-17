@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  cron-scheduler:
+    build: .
+    container_name: cron-job-scheduler
+    # No ports exposed since this is a background service with no API
