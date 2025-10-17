@@ -1,0 +1,25 @@
+{
+  "name": "22-compression-enabled-server",
+  "version": "1.0.0",
+  "description": "A Node.js server with TypeScript that serves large text responses using compression middleware for performance basics",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "ts-node src/server.ts"
+  },
+  "keywords": ["nodejs", "typescript", "compression", "express", "performance"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "compression": "^1.7.4"
+  },
+  "devDependencies": {
+    "@types/compression": "^1.7.2",
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  }
+}
