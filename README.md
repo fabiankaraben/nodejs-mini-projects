@@ -69,35 +69,35 @@ find . -name "package-lock.json" -type f -exec rm -f {} +
 
 11. **MongoDB Connection Service**  
     🔹 This is a database connector in Node.js with TypeScript, connecting to MongoDB, using Mongoose, insert/query operations, no APIs, no security, and Docker Compose deployment for DB setup practice.  
-    🔹 **Project directory**: basic/11-mongodb-connection-service
+    🔹 [Project directory](basic/11-mongodb-connection-service)
 
 12. **File Upload Handler**  
     🔹 This is a file upload service in Node.js with TypeScript, handling multipart uploads, using Multer, store files locally, POST endpoint, no security, and Docker deployment for media handling.  
-    🔹 **Project directory**: basic/12-file-upload-handler
+    🔹 [Project directory](basic/12-file-upload-handler)
 
 13. **Email Sender API**  
     🔹 This is an email dispatching backend in Node.js with TypeScript, sending emails via Nodemailer, SMTP config, one endpoint, no security, and Docker deployment for notification practice.  
-    🔹 **Project directory**: basic/13-email-sender-api
+    🔹 [Project directory](basic/13-email-sender-api)
 
 14. **Basic Authentication API**  
     🔹 This is an auth service in Node.js with Express and TypeScript, using basic HTTP auth, in-memory users, protected endpoints, no database, and Docker deployment for simple security.  
-    🔹 **Project directory**: basic/14-basic-authentication-api
+    🔹 [Project directory](basic/14-basic-authentication-api)
 
 15. **JWT Token Generator**  
     🔹 This is a token issuance API in Node.js with TypeScript, generating JWTs, using jsonwebtoken, login endpoint, no database, and Docker deployment for auth token practice.  
-    🔹 **Project directory**: basic/15-jwt-token-generator
+    🔹 [Project directory](basic/15-jwt-token-generator)
 
 16. **Password Hashing Service**  
     🔹 This is a security utility in Node.js with TypeScript, hashing passwords with bcrypt, no APIs, command-line like execution, no database, and Docker deployment for crypto basics.  
-    🔹 **Project directory**: basic/16-password-hashing-service
+    🔹 [Project directory](basic/16-password-hashing-service)
 
 17. **Cron Job Scheduler**  
     🔹 This is a scheduled task service in Node.js with TypeScript, running cron jobs with node-cron, log periodic tasks, no database, no APIs, and Docker deployment for automation.  
-    🔹 **Project directory**: basic/17-cron-job-scheduler
+    🔹 [Project directory](basic/17-cron-job-scheduler)
 
 18. **WebSocket Echo Server**  
     🔹 This is a real-time echo server in Node.js with TypeScript, using ws library, echo messages back, no database, no security, and Docker deployment for WebSocket intro.  
-    🔹 **Project directory**: basic/18-websocket-echo-server
+    🔹 [Project directory](basic/18-websocket-echo-server)
 
 19. **GraphQL Hello World**  
     🔹 This is a GraphQL API in Node.js with Apollo Server and TypeScript, simple query resolver, no database, one schema field, no security, and Docker deployment for query language practice.  
