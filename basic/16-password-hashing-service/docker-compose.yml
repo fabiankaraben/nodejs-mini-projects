@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  password-hasher:
+    build: .
+    command: ["node", "dist/index.js", "testpassword"]
+    stdin_open: true
+    tty: true
