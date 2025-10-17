@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  graphql-server:
+    # Build the Docker image from the current directory
+    build: .
+    # Map port 4000 on the host to port 4000 in the container
+    ports:
+      - "4000:4000"
+    # Restart the container if it crashes
+    restart: unless-stopped
